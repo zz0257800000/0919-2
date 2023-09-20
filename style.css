@@ -1,0 +1,93 @@
+.page {
+  display: flex;
+  width: 100vw;
+}
+
+.header {
+  height: 10vh;
+  background-color: aqua;
+}
+
+.leader {
+  height: 20vh;
+  margin-bottom: 50px;
+  background-color: rgb(197, 255, 255);
+}
+
+.white {
+  height: 80vh;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.white .content {
+  width: 40%;
+  height: 90%;
+  background-color: aqua;
+}
+.white .w1 {
+  margin-left: 50px;
+  width: 70%;
+}
+.white .w1 .rightText {
+  width: 20%;
+  height: 3vh;
+  margin-left: 10px;
+}
+.white .w1 .rightText .leftImg {
+  width: 30vw;
+  height: 3vh;
+  margin-left: 10vw;
+}
+.white .w1 .BOX {
+  width: 100%;
+}
+.white .w1 .BOX .boxT {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.white .w1 .BOX .boxT .a {
+  height: 30%;
+  width: 30%;
+}
+.white .w1 .BOX .boxT .a .numsColor {
+  width: 80%;
+  height: 80%;
+  background-color: aqua;
+}
+.white .w1 .BOX .boxT2 {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.white .w1 .BOX .boxT2 .a {
+  height: 30%;
+  width: 30%;
+}
+.white .w1 .BOX .boxT2 .a .numsColor {
+  width: 80%;
+  height: 80;
+  background-color: aqua;
+}
+.white .w1 .BOX .boxT3 {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.white .w1 .BOX .boxT3 .a {
+  height: 30%;
+  width: 30%;
+}
+.white .w1 .BOX .boxT3 .a .numsColor {
+  width: 80%;
+  height: 80;
+  background-color: aqua;
+}
+
+.footer {
+  height: 20vh;
+  background-color: aqua;
+}/*# sourceMappingURL=style.css.map */

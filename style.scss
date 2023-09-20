@@ -1,0 +1,117 @@
+.page{
+  
+    display:flex ;
+    width: 100vw;
+}
+.header{
+    height:10vh ;
+    background-color: aqua;
+    
+
+}
+.leader{
+    height:20vh ;
+    
+    margin-bottom: 50px;
+    background-color: rgb(197, 255, 255);
+}
+.white {
+
+    height:80vh ;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    .content{ 
+        width: 40%;
+        height:90% ;
+        background-color: aqua;
+        
+    }
+    .w1
+    {     
+        margin-left: 50px;
+        width: 70%;
+        .rightText{
+            
+            width: 20%;
+            height:3vh ;
+            margin-left: 10px;
+            .leftImg{
+                
+                width:30vw;
+               height:3vh ;
+               margin-left: 10vw;  
+                }
+            } 
+        .BOX{
+            width: 100%;
+            .boxT{
+                height: 80%;
+                width: 100%;
+                display: flex;
+            flex-wrap: wrap;
+              
+               .a{ 
+            
+                    height: 30%;
+                    width: 30%;
+                  
+                 
+                 .numsColor{
+                    width: 80%;
+                    height: 80%;
+                    background-color: aqua;
+                 }
+
+                 }
+                }
+                .boxT2{
+                    height: 80%;
+                width: 100%;
+                display: flex;
+            flex-wrap: wrap;
+              
+               .a{ 
+            
+                    height: 30%;
+                    width: 30%;
+                  
+                 
+                 .numsColor{
+                    width: 80%;
+                    height: 80;
+                    background-color: aqua;
+                 }
+
+                 }
+                    }
+                    .boxT3{
+                        height: 80%;
+                width: 100%;
+                display: flex;
+            flex-wrap: wrap;
+              
+               .a{ 
+            
+                    height: 30%;
+                    width: 30%;
+                  
+                 
+                 .numsColor{
+                    width: 80%;
+                    height: 80;
+                    background-color: aqua;
+                 }
+
+                 }
+                        }
+        }
+     
+    }
+    
+}
+.footer{
+    
+    // flex-wrap: wrap-reverse; 超過換行
+    height: 20vh;
+    background-color: aqua;
+}
